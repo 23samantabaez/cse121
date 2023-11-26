@@ -22,6 +22,10 @@ myProfile.placesLived.push(
         length: '9 years'
     },
     {
+        place: 'Utah, United States',
+        length: '5 years'
+    },
+    {
         place: 'Quebec, Canada',
         length: '4 years',
     }
@@ -43,7 +47,7 @@ myProfile.favoriteFoods.forEach(food => {
 myProfile.hobbies.forEach(hobbie => {
     let ul = document.createElement('ul');
     ul.textContent = hobbie;
-    document.querySelector("#hobbies").appendChild(li);
+    document.querySelector('#hobbies').appendChild(ul);
 });
 
 myProfile.placesLived.forEach(place => {
@@ -53,5 +57,5 @@ myProfile.placesLived.forEach(place => {
     dd.textContent = place.length;
     document.querySelector("#places-lived").appendChild(dt);
     document.querySelector("#places-lived").appendChild(dd);
-})
+});
 
