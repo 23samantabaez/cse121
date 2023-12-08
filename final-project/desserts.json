@@ -1,0 +1,34 @@
+[
+    {
+        "dessertType": "Bread",
+        "dessertName": "Banana Bread",
+        "description": "Sweet baked banana bread, made with sweet organic, mashed bananas. The brown butter adds a rich nuttiness and dark brown sugar is used to add a deep molasses flavor to the bread.",
+        "imageUrl": "https://i.pinimg.com/originals/bd/4a/b5/bd4ab5aeaca9c15927d6ae78a8026856.jpg"
+    },
+    {
+        "dessertType": "Bread",
+        "dessertName": "Blueberry Bread",
+        "description": "Indulge in a moist Lemon Blueberry Yogurt Loaf made with tangy Greek yogurt, zesty lemon, and succulent blueberries. Perfectly paired with your favourite brew!",
+        "imageUrl": "https://i.pinimg.com/564x/a6/70/12/a670128aad62032a453260a4dd300389.jpg"
+    },
+    {
+        "dessertType": "Bread",
+        "dessertName": "Cranberry Bread",
+        "description": "Orange-glazed Cranberry bread with a moist and tender crumb and loaded with juicy cranberries.",
+        "imageUrl": "https://i.pinimg.com/564x/cb/7d/81/cb7d81605b578a6da634b12cbd0fa00e.jpg"
+    },
+
+    {
+        "dessertType": "Donut",
+        "dessertName": "Salted Caramel Brioche Doughnut",
+        "description": "These salted caramel brioche donuts are made with the softest, fluffiest dough, and a creamy whipped salted caramel filling. ",
+        "imageUrl": "https://i.pinimg.com/564x/74/7a/4a/747a4a29efb502935953c678350e7bc7.jpg"
+    },
+
+    {
+        "dessertType": "Cookie",
+        "dessertName": "White Chocolate chip Cookie",
+        "description": "A soft and tender cookie, lightly spiced with cinnamon, with a ton of chopped white chocolate folded into the dough.",
+        "imageUrl": "https://i.pinimg.com/564x/9d/9e/39/9d9e397f8e521bd36840387799e40dd3.jpg"
+    }
+]
