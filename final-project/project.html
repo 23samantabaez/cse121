@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="final-project/project.js"defer></script>
 </head>
 <body>
     <main>
         <h1>Pan Dulce Bakery</h1>
         <h2>Menu</h2>
-        <select id="breadType" title="Choose a type of bread.">
-            <option value="" disabled="" selected="">Filter types of bread</option>
+        <select id="breadType" title="Choose a type of dessert.">
+            <option value="" disabled="" selected="">Filter types of desserts</option>
             <option value="bread">Bread</option>
             <option value="cookie">Cookies</option>
             <option value="doughnuts">Doughnuts</option>
+            <option value="all">Display all</option>
+
         </select>
         <div>
             <label for="name">Name:</label>
-            <input type="text" id="add2" name="add2">
+            <input type="text" id="nameInput" name="userName">
         </div>
         <div>
             <label for="Order">My order is:</label>
-            <input type="text" id="add2" name="add2">
+            <input type="text" id="orderInput" name="userOrder">
         </div>
         <select id="delPick" title="Delivery or pickup">
             <option value="" disabled="" selected="">Delivery or Pickup?</option>
@@ -35,6 +35,7 @@
             <input type="button" id="placeOrder" value="Place Order">
         </div>
     </main>
+    <script src="project.js"></script>
     
 </body>
 </html>
