@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>The Bakery</h1>
+  
+
+<label for="dessertType">Select Dessert Type:</label>
+<select id="dessertType" onchange="sortBy()">
+    <option value="all">All</option>
+    <option value="bread">Bread</option>
+    <option value="cookie">Cookie</option>
+    <option value="doughnut">Doughnut</option>
+</select>
+
+  
+<div id="dessertsContainer"></div>
+
+
+<div id="nameIn">
+    <label for="name">Name:</label>
+    <input type="text" id="nameInput" name="userName">
+</div>
+<div id="orderIn">
+    <label for="Order">My order is:</label>
+    <input type="text" id="orderInput" name="userOrder">
+</div>
+<select id="delPick" title="Delivery or pickup">
+    <option value="" disabled="" selected="">Delivery or Pickup?</option>
+    <option value="deliveryOption">Delivery</option>
+    <option value="pickupOption">Pickup</option>
+</select>
+
+<div>
+    <button id="placeOrderButton" onclick="placeOrder()">Place Order</button>
+    <p id="orderMessage" style="display: none;">Order placed!</p>
+</div>
+
+<script src="test-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+background 
+
+
+/* HTML Selectors */
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+
+h1, h2 {
+    text-align: center;
+    margin: 1rem 0 .5rem;
+}
+
+h1 {
+    border-bottom: 1px solid #ccc;
+}
+ 
+h2 {
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+header {
+    margin-top: 70px;
+}
+
+#desserts{
+    padding: auto;
+}
+
+picture {
+    margin: 0 auto;
+}
+
+picture img {
+    width: 240px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 30px #777;
+}
+
+#sortBy {
+    appearance: none;
+    display: flex;
+    padding: .5rem;
+    background-color: #eee;
+    color: #444;
+    font-weight: 700;
+    margin: 1rem auto;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+#desserts imgage {
+    width: 250px;
+    height: auto;
+    margin: .5rem;
+}

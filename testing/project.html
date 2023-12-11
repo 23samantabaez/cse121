@@ -5,20 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
+    <link rel="stylesheet" href="project.css">
+
 </head>
 <body>
-    <main>
+    <main id="bakery">
         <h1>Pan Dulce Bakery</h1>
         <h2>Menu</h2>
-        <select id="breadType" title="Choose a type of dessert.">
+
+        <select id="sortBy" title="Choose a type of dessert.">
             <option value="" disabled="" selected="">Filter types of desserts</option>
             <option value="bread">Bread</option>
             <option value="cookie">Cookies</option>
             <option value="doughnuts">Doughnuts</option>
             <option value="all">Display all</option>
-
         </select>
-        <div>
+
+        <div id="desserts">
+        </div>
+
+        <!-- <div>
             <label for="name">Name:</label>
             <input type="text" id="nameInput" name="userName">
         </div>
@@ -33,7 +39,8 @@
         </select>
         <div>
             <input type="button" id="placeOrder" value="Place Order">
-        </div>
+        </div> -->
+        
     </main>
     <script src="project.js"></script>
     
